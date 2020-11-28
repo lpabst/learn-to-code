@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+
+.header {
+  width: 100%;
+  height: 55px;
+  background: rgb(14, 3, 77);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
+  width: 80%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+}
+
+.whiteText {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.pinkBar {
+  width: 100%;
+  height: 40px;
+  background: purple;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jumboImage{
+  width: 100%;
+}
+
+.jumboImageText {
+  font-size: 40px;
+  font-weight: bold;
+  color: gray;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.sponsorshipBox {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+
+.borderedBox {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px gray;
 }
